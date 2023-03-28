@@ -50,7 +50,7 @@ rf_model_on_full_data = RandomForestRegressor(random_state=1)
 rf_model_on_full_data.fit(X,y)
 
 # path to file you will use for predictions
-test_data_path = '../input/test.csv'
+test_data_path = 'test.csv'
 
 # read test data file using pandas
 test_data = pd.read_csv(test_data_path)

@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 from learntools.core import *
 
-iowa_file_path = '../input/train.csv'
+iowa_file_path = 'train.csv'
 
 home_data = pd.read_csv(iowa_file_path)
 # Create target object and call it y
